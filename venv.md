@@ -56,3 +56,24 @@
 ## git
 برای اینکه محیط مجازیمان نیاز به کامیت در گیت نداشته باشد باید دایرکتوری venv را داخل .gitignore قرار دهیم .
 
+
+## install a new module on venv
+```
+# python3 -m venv venv یک محیط مجازی میسازیم
+# source venv/bin/activate وارد محیط مجازیمان میشویم
+
+(venv)#  pip freeze  چک میکنیم که پکیجی داخلش نصب نیست
+(venv)#  pip install flask  فلاسک را نصب میکنیم
+
+
+# (venv) pip freeze   چک میکنیم چه پکیج هایی داخل محیط مجازیمان نصب است
+blinker==1.6.2
+click==8.1.7
+Flask==2.3.2
+importlib-metadata==6.8.0
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+werkzeug==2.3.7
+zipp==3.16.2
+```
