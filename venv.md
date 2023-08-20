@@ -76,4 +76,10 @@ Jinja2==3.1.2
 MarkupSafe==2.1.3
 werkzeug==2.3.7
 zipp==3.16.2
+
+flask --version
+Python 3.8.10
+Flask 2.3.2
+Werkzeug 2.3.7
+
 ```
